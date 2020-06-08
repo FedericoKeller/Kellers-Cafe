@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../../assets/cafe.jpg');    
+    background-size: cover;
+}
+
+.title-header{
+    font-family: 'kollektif', 'arial', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+
+.navbar {
+    background: rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+  z-index: 99;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+  }
+
+.navbar.scrolled {
+    background: #34190e;
+
+}
+
+.container{
+    display: table-cell; vertical-align: middle;
+}
+
+.hero-body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: 'kollektif', 'arial', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 120px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+  }
+
+
+.white{
+    color: #fff;
+}
+
+@media(max-width: 767px) {
+    .navbar-menu{
+        background-color: #34190e;
+    
+    }
+
+    .title{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    header{
+        background-position: 50% 50% !important;
+    }
+}
