@@ -6,12 +6,9 @@ header {
 }
 
 .title-header{
-    font-family: 'kollektif', 'arial', sans-serif;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: #fff;
-    font-size: 20px;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    background: url('../../../assets/logo.png') no-repeat center center;
+    background-size: cover;
+    width: 110px
   }
 
 .navbar {
@@ -37,8 +34,7 @@ header {
   }
 
 .navbar.scrolled {
-    background: #34190e;
-
+    background: #4b0404f6;
 }
 
 .container{
@@ -62,6 +58,16 @@ header {
 
   }
 
+  .subtitle{
+    font-family: 'kollektif', 'arial', sans-serif;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+  }
+
 
 .white{
     color: #fff;
@@ -75,6 +81,11 @@ header {
 
     .title{
         font-size: 60px;
+        text-align: center;
+    }
+
+    .subtitle{
+        font-size: 40px;
         text-align: center;
     }
 

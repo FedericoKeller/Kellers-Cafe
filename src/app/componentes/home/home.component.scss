@@ -10,7 +10,22 @@
 
 
 
-.container{
+  
+.hero{
+  background-image: linear-gradient(141deg, #4b0404f6 0%, #7c0606f6 71%, #af0c0cf6 100%);
+
+}
+
+.background{
+      background: url('../../../assets/wood2.png');    
+    background-size: cover;
+}
+
+.background-story{
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../../assets/fondo.png');    
+  background-size: cover;
+}
+.container-fluid{
     text-align: center;
 }
 
@@ -26,9 +41,36 @@
   }
 
 
+
+  .beautify{
+    color: #fff;
+    text-align: justify;
+    font-size: 25px;
+    
+  }
+
+
+
+ 
 @media(max-width: 767px) {
     .title{
         font-size: 30px;
         text-align: center;
     }
+
+    .beautify{
+      font-size: 20px;
+      padding: 40px;
+    }
+
+
+
+
+}
+
+@media(min-width: 1200px){
+  .containing{
+    width: 557px!important;
+  }
+
 }

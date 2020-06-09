@@ -17,10 +17,10 @@ export class HeaderComponent implements OnInit {
   onWindowScroll() {
     if (document.body.scrollTop  ||     
     document.documentElement.scrollTop ) {
-      console.log('hi');
+
      this.navBar.nativeElement.classList.add('scrolled')
     }else{
-      console.log('no')
+  
       this.navBar.nativeElement.classList.remove('scrolled');
     }
   }
