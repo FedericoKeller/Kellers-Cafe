@@ -61,26 +61,7 @@ export class HomeComponent implements OnInit {
   };
 
   config_menu: SwiperOptions = {
-    slidesPerView: 2,
-    spaceBetween: 30,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    breakpoints: {
-      1024: {
-        slidesPerView: 4,
-      },
-      500: {
-        slidesPerView: 3
-      },
-      400: {
-        slidesPerView: 2
-      },
-      300: {
-        slidesPerView: 1
-      }
-    }
+   
   }
 
 

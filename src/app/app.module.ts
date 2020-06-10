@@ -7,6 +7,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxUsefulSwiperModule
+    NgxUsefulSwiperModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

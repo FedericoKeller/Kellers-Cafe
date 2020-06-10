@@ -1,5 +1,8 @@
 import { Component, OnInit, ViewChild, ElementRef, HostListener, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 @Component({
 
   selector: 'app-header',
@@ -7,6 +10,8 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  faWhatsapp = faWhatsapp;
+  faFacebook= faFacebook;
   @ViewChild('navBurger') navBurger: ElementRef;
     @ViewChild('navMenu') navMenu: ElementRef;
     @ViewChild('navBar') navBar: ElementRef;
